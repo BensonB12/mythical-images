@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   build-and-push:
-    runs-on: [self-hosted, benson]
+    runs-on: [self-hosted, benson img]
 
     steps:
       - name: Checkout code
